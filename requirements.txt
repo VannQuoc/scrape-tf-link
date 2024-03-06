@@ -1,0 +1,8 @@
+requests
+telebot
+subprocess
+psutil
+requests
+flask
+bs4
+concurrent.futures
