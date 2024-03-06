@@ -1,6 +1,5 @@
 requests
 telebot
-subprocess
 psutil
 requests
 flask
