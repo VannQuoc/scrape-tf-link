@@ -6,8 +6,8 @@ import psutil
 def run_bot():
     while True:
         print("Starting the bot...")
-        process = subprocess.Popen(["python", "main.py"], stderr=subprocess.PIPE)
         process = subprocess.Popen(["python", "flask.py"], stderr=subprocess.PIPE)
+        process = subprocess.Popen(["python", "main.py"], stderr=subprocess.PIPE)
         print("Bot running. Waiting before accessing the URL...")
         time.sleep(1800)
         cpu_percent = psutil.cpu_percent(interval=1)
