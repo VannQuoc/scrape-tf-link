@@ -4,4 +4,3 @@ psutil
 requests
 flask
 bs4
-concurrent.futures
